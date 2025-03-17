@@ -42,3 +42,10 @@ body, html {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+
+@media only screen and (max-width: 600px) {
+  #container #spline #canvas3d {
+       width: 100% !important;
+  height: 600px !important;
+  }
+  }
