@@ -4,6 +4,7 @@ import { Application } from '@splinetool/runtime'
 // Connects to data-controller="spline"
 export default class extends Controller {
   connect() {
+    console.log("hello")
     document.addEventListener("turbo:load", () => {
       const canvas = document.getElementById('canvas3d');
       if (canvas) {
