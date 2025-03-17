@@ -9,7 +9,7 @@
 }
 
 .special_font {
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 [data-controller="spline"] {
@@ -29,9 +29,16 @@
   display: block;
 }
 
-/* Pour s'assurer que le body n'a pas de marges */
 body, html {
   margin: 0;
   padding: 0;
   overflow: hidden;
+}
+
+.overlay-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
